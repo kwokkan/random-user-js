@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"incremental": true,
+
+		"forceConsistentCasingInFileNames": true,
+
+		"jsx": "react",
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Node"
+	},
+	"include": [
+		"./src/**/*"
+	]
+}
