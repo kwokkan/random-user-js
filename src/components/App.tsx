@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { Fragment, h } from 'preact';
+import { useEffect, useState } from 'preact/hooks';
 import { IUser } from '../models';
 import { get } from '../services/randomUserService';
 import { User } from './User';
