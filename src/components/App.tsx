@@ -1,6 +1,7 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { IUser } from '../models';
 import { get } from '../services/randomUserService';
+import { User } from './User';
 
 export function App() {
     const [page, setPage] = useState(1);
@@ -43,10 +44,10 @@ export function App() {
     }
 
     return (
-        <Fragment>
+        <div className="users">
             {users.map(user =>
-                <h1 key={user.login.uuid}>{user.name.first}</h1>
+                <User key={user.login.uuid} user={user} />
             )}
-        </Fragment>
+        </div>
     );
 }
