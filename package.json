@@ -11,8 +11,7 @@
     "build": "parcel build public/index.html --no-source-maps --experimental-scope-hoisting"
   },
   "dependencies": {
-    "react": "17.0.0-rc.1",
-    "react-dom": "17.0.0-rc.1"
+    "preact": "10.4.8"
   },
   "devDependencies": {
     "@types/react": "16.9.49",
