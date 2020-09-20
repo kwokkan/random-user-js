@@ -1,4 +1,4 @@
-import { Fragment, h } from 'preact';
+import { h } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
 import { IUser } from '../models';
 import { get } from '../services/randomUserService';
