@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { Fragment, useEffect, useState } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { IUser } from '../models';
 import { get } from '../services/randomUserService';
 

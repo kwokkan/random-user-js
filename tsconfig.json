@@ -5,6 +5,7 @@
 
 		"forceConsistentCasingInFileNames": true,
 
+		"allowSyntheticDefaultImports": true,
 		"jsx": "react",
 		"target": "ESNext",
 		"module": "ESNext",
