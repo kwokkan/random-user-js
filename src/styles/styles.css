@@ -1,0 +1,23 @@
+html {
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.users {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.user {
+    background-color: #eee;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 1rem;
+}
