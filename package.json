@@ -22,6 +22,6 @@
   },
   "alias": {
     "react": "preact/compat",
-    "react-dom": "preact"
+    "react-dom": "preact/compat"
   }
 }
