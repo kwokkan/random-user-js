@@ -47,3 +47,7 @@ html {
 .user-location-label {
     text-align: right;
 }
+
+.user-map {
+    height: 256px;
+}

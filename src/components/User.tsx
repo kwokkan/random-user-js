@@ -1,5 +1,6 @@
-import { h } from "preact";
-import { IUser } from "../models";
+import { h } from 'preact';
+import { IUser } from '../models';
+import { ExternalMap } from './ExternalMap';
 
 interface IUserProps {
     user: IUser;
@@ -25,6 +26,7 @@ export function User(props: IUserProps) {
                     <strong>{location.street.number} {location.street.name}</strong>
                 </address>
             </div>
+            <ExternalMap location={location} />
         </div>
     );
 }
