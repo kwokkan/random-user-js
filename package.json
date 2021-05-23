@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "leaflet": "1.7.1",
-    "preact": "10.4.8",
+    "preact": "10.5.13",
     "react-leaflet": "2.7.0"
   },
   "devDependencies": {
