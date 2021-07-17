@@ -13,7 +13,7 @@
   "dependencies": {
     "leaflet": "1.7.1",
     "preact": "10.5.14",
-    "react-leaflet": "2.7.0"
+    "react-leaflet": "3.2.0"
   },
   "devDependencies": {
     "@types/react-leaflet": "2.8.2",
