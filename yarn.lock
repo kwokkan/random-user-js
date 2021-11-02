@@ -210,13 +210,6 @@
     "@babel/helper-plugin-utils" "^7.13.0"
     "@babel/plugin-syntax-flow" "^7.12.13"
 
-"@babel/runtime@^7.9.2":
-  version "7.11.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
-  integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
 "@babel/template@^7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.16.0.tgz#d16a35ebf4cd74e202083356fab21dd89363ddd6"
@@ -930,6 +923,11 @@
     "@parcel/utils" "^2.0.0"
     chrome-trace-event "^1.0.2"
     nullthrows "^1.1.1"
+
+"@react-leaflet/core@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@react-leaflet/core/-/core-1.1.1.tgz#827fd05bb542cf874116176d8ef48d5b12163f81"
+  integrity sha512-7PGLWa9MZ5x/cWy8EH2VzI4T8q5WpuHbixzCDXqixP/WyqwIrg5NDUPgYuFnB4IEIZF+6nA265mYzswFo/h1Pw==
 
 "@swc/helpers@^0.2.11":
   version "0.2.13"
@@ -2548,13 +2546,6 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
-  integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
-  dependencies:
-    react-is "^16.7.0"
-
 hsl-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hsl-regex/-/hsl-regex-1.0.0.tgz#d49330c789ed819e276a4c0d272dffa30b18fe6e"
@@ -2951,7 +2942,7 @@ jake@^10.6.1:
     filelist "^1.0.1"
     minimatch "^3.0.4"
 
-"js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
+js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
@@ -3135,13 +3126,6 @@ log-symbols@^4.1.0:
   dependencies:
     chalk "^4.1.0"
     is-unicode-supported "^0.1.0"
-
-loose-envify@^1.0.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
-  integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
-  dependencies:
-    js-tokens "^3.0.0 || ^4.0.0"
 
 lowlight@~1.17.0:
   version "1.17.0"
@@ -4097,20 +4081,12 @@ range-parser@1.2.0:
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
   integrity sha1-9JvmtIeJTdxA3MlKMi9hEJLgDV4=
 
-react-is@^16.7.0:
-  version "16.13.1"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
-  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
-
-react-leaflet@2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/react-leaflet/-/react-leaflet-2.7.0.tgz#0e0e452a4903029f0bb564771eab8cf9db8e4517"
-  integrity sha512-pMf5eRyWU8RH9HohM2i0NZymcWHraJA1m6iMFYu94/01PAaBJpOyxORZJmN6cV9dBzkVWaLjAAHTNmxbwIpcfw==
+react-leaflet@3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/react-leaflet/-/react-leaflet-3.2.2.tgz#3d779662c32a1d8729e73d24e8ad96ee5b38beef"
+  integrity sha512-5W7iWjI9+CdTGVAICe8RUyK0n+uLshr+eLQa8eBCbmstPNpCHZJTUSbju4Ws5dkS/PUCr9t5VmoIE9CXuSBEhw==
   dependencies:
-    "@babel/runtime" "^7.9.2"
-    fast-deep-equal "^3.1.1"
-    hoist-non-react-statics "^3.3.2"
-    warning "^4.0.3"
+    "@react-leaflet/core" "^1.1.1"
 
 react-refresh@^0.9.0:
   version "0.9.0"
@@ -4139,7 +4115,7 @@ readable-stream@^3.0.0, readable-stream@^3.4.0, readable-stream@^3.5.0, readable
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
 
-regenerator-runtime@^0.13.4, regenerator-runtime@^0.13.7:
+regenerator-runtime@^0.13.7:
   version "0.13.7"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
   integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
@@ -4797,13 +4773,6 @@ w3c-xmlserializer@^1.1.2:
     domexception "^1.0.1"
     webidl-conversions "^4.0.2"
     xml-name-validator "^3.0.0"
-
-warning@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
-  integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
-  dependencies:
-    loose-envify "^1.0.0"
 
 wcwidth@^1.0.1:
   version "1.0.1"
