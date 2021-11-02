@@ -1,5 +1,5 @@
 import { h } from 'preact';
-import { Map as LeafletMap, Marker, Popup, TileLayer } from 'react-leaflet';
+import { MapContainer as LeafletMap, Marker, Popup, TileLayer } from 'react-leaflet';
 import { ILocation } from "../models";
 
 interface IProps {
