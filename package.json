@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@types/leaflet": "1.7.5",
-    "parcel": "2.0.0",
+    "parcel": "2.0.1",
     "typescript": "4.4.4"
   },
   "alias": {
