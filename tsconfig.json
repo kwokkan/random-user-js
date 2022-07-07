@@ -5,11 +5,14 @@
 
 		"forceConsistentCasingInFileNames": true,
 
-		"jsx": "react",
-		"jsxFactory": "h",
+		"jsx": "react-jsx",
 		"target": "ESNext",
 		"module": "ESNext",
-		"moduleResolution": "Node"
+		"moduleResolution": "Node",
+
+		"paths": {
+			"react/jsx-runtime": [ "./node_modules/preact/jsx-runtime" ]
+		}
 	},
 	"include": [
 		"./src/**/*"
