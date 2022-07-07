@@ -1,4 +1,3 @@
-import { h } from 'preact';
 import { IUser } from '../models';
 import { ExternalMap } from './ExternalMap';
 

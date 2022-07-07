@@ -1,4 +1,3 @@
-import { h } from 'preact';
 import { MapContainer as LeafletMap, Marker, Popup, TileLayer, useMap } from 'react-leaflet';
 import { ILocation } from "../models";
 
