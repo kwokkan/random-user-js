@@ -18,7 +18,7 @@
     "@types/leaflet": "1.7.11",
     "@types/node": "18.7.13",
     "parcel": "2.7.0",
-    "typescript": "4.7.4"
+    "typescript": "4.8.2"
   },
   "alias": {
     "react": "preact/compat",
