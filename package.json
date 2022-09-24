@@ -10,7 +10,7 @@
     "build": "parcel build public/index.html --no-source-maps"
   },
   "dependencies": {
-    "leaflet": "1.8.0",
+    "leaflet": "1.9.0",
     "preact": "10.11.0",
     "react-leaflet": "4.0.2"
   },
